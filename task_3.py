@@ -12,6 +12,9 @@ swimming = int(input("Enter the time taken for swimming in minutes here: "))
 print("The time taken for swimmming in minutes is: ", swimming)
 
 # It also means I will have to add the total time taken by each of the three events.
+Total_Triathlon_Time = running + swimming + cycling
+print("Total triathlon time taken is: ", Total_Triathlon_Time, "minutes")
+
 # I then need to compare the combined total time of each of the three events with the award table provided.
 # The time in question is in minutes.
 # After comparing the total time taken by the three events with the award table, I can then print out my awards statements based on 
