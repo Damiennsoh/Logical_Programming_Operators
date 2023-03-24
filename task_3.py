@@ -3,7 +3,14 @@
 
 # creating an event input for all three events- thus swimming, cycling and running
 running = int(input("what is the time taken for swimming in minutes ? Enter it here: ")) # Here, the input function input() is by default a string, but because I'm dealing with time which is an int, I first of all need to cast the data type from string into an int. That is why the int data type is placed infront of the input function.
-print("Time taken for running is: ", running)
+print("Time taken for running in minutes is: ", running)
+
+cycling = int(input("Enter the time taken for cycling in minutes here: "))
+print("Time taken for cycline in minutes is ", cycling)
+
+swimming = int(input("Enter the time taken for swimming in minutes here: "))
+print("The time taken for swimmming in minutes is: ", swimming)
+
 # It also means I will have to add the total time taken by each of the three events.
 # I then need to compare the combined total time of each of the three events with the award table provided.
 # The time in question is in minutes.
