@@ -15,6 +15,24 @@ print("The time taken for swimmming in minutes is: ", swimming)
 Total_Triathlon_Time = running + swimming + cycling
 print("Total triathlon time taken is: ", Total_Triathlon_Time, "minutes")
 
+# Defining the total triathlon time and what it means with regards to the awards
+# Within qualifyying time = 100 minutes = Provincial Colours
+# Within 5 minutes of qualifying time  = 100+5 = 105 minutes = Provincial Half Colours
+# Within 10 minutes of qualifying time = 100+10 110 minutes = Provincial Scroll
+# More than 10 minutes of qualifying time  = 100+ above 10 minutes. = No award
+
+# Using if statements to make decisions for my program.
+if Total_Triathlon_Time < 100:
+    print("Pronvincial Colours Award")
+elif (Total_Triathlon_Time > 100 and Total_Triathlon_Time <= 105):
+    print("Provincial Half Colours Awards")
+elif (Total_Triathlon_Time > 105 and Total_Triathlon_Time <= 110):
+    print("Provincial Scroll Awards")
+else:
+    print("No Award")
+
+
+
 # I then need to compare the combined total time of each of the three events with the award table provided.
 # The time in question is in minutes.
 # After comparing the total time taken by the three events with the award table, I can then print out my awards statements based on 
