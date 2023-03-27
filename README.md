@@ -10,6 +10,9 @@ In a programming language, an operator is a symbol that tells the compiler or in
 ## License:
 * Refer to the MIT license within the repository
 
+## User Story:
+* ![image](https://github.com/Damiennsoh/Logical_Programming_Operators/blob/main/Screenshots/user%20story.jpg)
+
 ## Screenshots:
 * A snippet of the code
 ![image](https://github.com/Damiennsoh/Logical_Programming_Operators/blob/main/Screenshots/Control%20statements.jpg)
